@@ -1,6 +1,6 @@
 {
   "name": "use-trace-update",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "use-trace-update.js",
   "author": "Damian Green <damian@gcoders.com>",
   "description": "React Hook to trace functional component updates.",
@@ -13,9 +13,9 @@
     "use-trace-update.d.ts",
     "use-trace-update.js"
   ],
-  "homepage": "https://github.com/damiangreen/useTraceUpdate#readme",
+  "homepage": "https://github.com/damiangreen/use-trace-update#readme",
   "license": "MIT",
-  "repository": "github:damiangreen/useTraceUpdate",
+  "repository": "github:damiangreen/use-trace-update",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "tsc",
