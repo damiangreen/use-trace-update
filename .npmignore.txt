@@ -1,0 +1,9 @@
+/node_modules
+/src
+/tests
+/.gitignore
+/.npmignore
+/.travis.yml
+/tsconfig.json
+/use-trace-update.js.map
+/yarn.lock

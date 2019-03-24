@@ -1,0 +1,47 @@
+{
+  "name": "use-trace-update",
+  "version": "1.0.0",
+  "main": "use-trace-update.js",
+  "author": "Damian Green <damian@gcoders.com>",
+  "description": "React Hook to trace functional component updates.",
+  "directories": {
+    "lib": "src",
+    "test": "tests"
+  },
+  "files": [
+    "package.json",
+    "use-trace-update.d.ts",
+    "use-trace-update.js"
+  ],
+  "homepage": "https://github.com/damiangreen/useTraceUpdate#readme",
+  "license": "MIT",
+  "repository": "github:damiangreen/use-force-update",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc",
+    "test": "mocha -r chai/register-expect -r ts-node/register tests/**/*.spec.tsx"
+  },
+  "types": "./use-force-update.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/enzyme": "^3.9.1",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/mocha": "^5.2.5",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.3",
+    "@types/react-test-renderer": "^16.0.3",
+    "@types/sinon": "^7.0.10",
+    "chai": "^4.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "mocha": "^5.2.0",
+    "mocha-sinon": "^2.1.0",
+    "react": "^16.8.0-alpha.1",
+    "react-dom": "^16.8.5",
+    "react-test-renderer": "^16.8.0-alpha.1",
+    "sinon": "^7.3.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.1.3"
+  }
+}

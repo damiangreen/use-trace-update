@@ -1,0 +1,6 @@
+/node_modules
+/use-trace-update.d.ts
+/use-trace-update.js
+/use-trace-update.js.map
+/coverage
+.nyc_output
