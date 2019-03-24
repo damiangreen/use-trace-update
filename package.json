@@ -1,6 +1,6 @@
 {
   "name": "use-trace-update",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "use-trace-update.js",
   "author": "Damian Green <damian@gcoders.com>",
   "description": "React Hook to trace functional component updates.",
@@ -15,13 +15,13 @@
   ],
   "homepage": "https://github.com/damiangreen/useTraceUpdate#readme",
   "license": "MIT",
-  "repository": "github:damiangreen/use-force-update",
+  "repository": "github:damiangreen/useTraceUpdate",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "tsc",
     "test": "mocha -r chai/register-expect -r ts-node/register tests/**/*.spec.tsx"
   },
-  "types": "./use-force-update.d.ts",
+  "types": "./use-trace-update.d.ts",
   "dependencies": {},
   "devDependencies": {
     "@types/chai": "^4.1.7",
