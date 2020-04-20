@@ -3,10 +3,6 @@ import useTraceUpdate from "../src/use-trace-update";
 import * as sinon from "sinon";
 import { shallow } from "enzyme";
 import { expect } from "chai";
-import Adapter from "enzyme-adapter-react-16";
-import Enzyme from "enzyme";
-
-Enzyme.configure({ adapter: new Adapter() });
 
 const TestComponent = (props: { name: string }) => {
   useTraceUpdate(props);
