@@ -15,7 +15,10 @@
   ],
   "homepage": "https://github.com/damiangreen/use-trace-update#readme",
   "license": "MIT",
-  "repository": "github:damiangreen/use-trace-update",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damiangreen/use-trace-update.git"
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "tsc",
