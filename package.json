@@ -1,6 +1,6 @@
 {
   "name": "use-trace-update",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "main": "use-trace-update.js",
   "author": "Damian Green <damian@gcoders.com>",
   "description": "React Hook to trace functional component updates.",
